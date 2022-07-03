@@ -20,7 +20,7 @@ $ownedCarModel = $_POST["owned_car_model"];
 try {
   //Password:MAMP='root',XAMPP=''
   // $pdo = new PDO('mysql:dbname=dbxxxx;charset=utf8;host=xxxx.sakura.ne.jp', 'IDxxxx', 'PWxxx'); 
-  $pdo = new PDO('mysql:dbname=mil-sakane_gstestdrive0627;charset=utf8;host=mysql57.mil-sakane.sakura.ne.jp', 'mil-sakane', 'aikokoko42_'); 
+  $pdo = new PDO('mysql:dbname=xxx;charset=utf8;host=xxx', 'xxx', 'xxx'); 
   // $pdo = new PDO('mysql:dbname=gs_testdrive;charset=utf8;host=localhost','root','');  //db名怪しい？
   // $pdo = new PDO('mysql:dbname=ユーザー名_DB名;charset=utf8;host=URL', 'ユーザー名', 'パスワード'); 
 } catch (PDOException $e) {   //tryしエラーがでたら｛以下を表示して
