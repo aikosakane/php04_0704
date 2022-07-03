@@ -16,12 +16,12 @@ function db_conn(){
         // $db_host = "localhost"; //DBホスト
 
         //localhost以外＊＊自分で書き直してください！！＊＊
-        $pdo = new PDO('mysql:dbname=mil-sakane_gstestdrive0627;charset=utf8;host=mysql57.mil-sakane.sakura.ne.jp', 'mil-sakane', 'aikokoko42_'); 
+        $pdo = new PDO('mysql:dbname=xxx;charset=utf8;host=xxx', 'xxxx', 'xxx'); 
         if($_SERVER["HTTP_HOST"] != 'localhost'){
-            $db_name = "mil-sakane_gstestdrive0627";  //データベース名
-            $db_id   = "mil-sakane";  //アカウント名（さくらコントロールパネルに表示されています）
-            $db_pw   = "aikokoko42_";  //パスワード(さくらサーバー最初にDB作成する際に設定したパスワード)
-            $db_host = "mysql57.mil-sakane.sakura.ne.jp"; //例）mysql**db.ne.jp...
+            $db_name = "xxx";  //データベース名
+            $db_id   = "xxx";  //アカウント名（さくらコントロールパネルに表示されています）
+            $db_pw   = "xxx_";  //パスワード(さくらサーバー最初にDB作成する際に設定したパスワード)
+            $db_host = "xxxl57.mil-sakane.sakura.ne.jp"; //例）mysql**db.ne.jp...
         }
         return new PDO('mysql:dbname='.$db_name.';charset=utf8;host='.$db_host, $db_id, $db_pw);
     } catch (PDOException $e) {
