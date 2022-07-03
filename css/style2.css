@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    /* color: white; */
+    /* text-align: center; */
+}
+
+.navigation{    /* ロゴ */
+    text-align: center;
+}
+
+h1{     /* タイトル */
+    font-size: 300%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2{     /* タイトル */
+    font-size: 90%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    padding-top: 10px;
+}
+
+li {
+    padding: .4% 3.5%;
+    border: 2px solid red;
+    background: red;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    /* transition: .1s; */
+    overflow: hidden;
+    font-weight: bolder;
+    margin: 10px;
+    display: inline;
+}
+
+li:hover {
+    background: rgb(134, 134, 134);
+    border: 2px solid rgb(134, 134, 134);
+    color: black;
+}
+
+.mainVisual {
+    text-align: center;
+    margin: 50px;
+}
+
+.img1, .img2, .img7{
+    margin-right: 2%;
+    margin-left: 2%;
+
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+}
